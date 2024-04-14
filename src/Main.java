@@ -1,14 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int check = 800;
-        int purchase = 1300;
-
-        boolean isRegistred = true;
-
+        int check = 50;
+        int purchase = 1000;
 
         int bonus;
-        if (purchase > 1100) {
-            bonus = ((purchase + check) / 100);
+        if (purchase >= 1000) {
+            bonus = (purchase /100);
         } else {
             bonus = 0;
         }
