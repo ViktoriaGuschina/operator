@@ -5,7 +5,7 @@ public class Main {
 
         int bonus;
         if (purchase >= 1000) {
-            bonus = (purchase /100);
+            bonus = (purchase / 100);
         } else {
             bonus = 0;
         }
